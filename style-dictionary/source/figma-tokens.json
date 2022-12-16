@@ -1,5 +1,10 @@
 {
-  "global": {},
+  "global": {
+    "$ftds-button-color-background": {
+      "value": "#f00",
+      "type": "color"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
