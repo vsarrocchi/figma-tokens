@@ -1,7 +1,7 @@
 {
   "global": {
-    "$ftds-button-color-background": {
-      "value": "#f00",
+    "button-color-background": {
+      "value": "#0600ff",
       "type": "color"
     }
   },
