@@ -1,7 +1,7 @@
 /**
  * Do not edit directly
- * Generated on Fri, 16 Dec 2022 14:47:42 GMT
+ * Generated on Fri, 16 Dec 2022 14:54:18 GMT
  */
 
-export const tokenButtonColorBackground = "#0600ff";
+export const tokenButtonColorBackground = "#10ff00";
 export const tokenTokenSetOrder0 = "global";
