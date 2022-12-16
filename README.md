@@ -1,5 +1,3 @@
-# sb-sd-poc
-
 ## Create Next.js and TypeScript project:
 
 ```
