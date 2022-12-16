@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-tokens": "yarn run generate-tokens:transform-figma-tokens && yarn run generate-tokens:style-dictionary",
+    "generate-tokens:transform-figma-tokens": "yarn token-transformer ./style-dictionary/source/figma-tokens.json ./style-dictionary/build/sd-tokens.json --resolveReferences true --preserveRawValue true --expandTypography true --expandShadow true",
+    "generate-tokens:style-dictionary": "node ./style-dictionary/sd.build.js"
   },
   "dependencies": {
     "@next/font": "13.0.7",
@@ -19,5 +22,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "^0.0.28"
   }
 }

@@ -1,0 +1,47 @@
+{
+  "source": ["./style-dictionary/build/sd-tokens.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "transforms": [
+        "attribute/gcti",
+        "name/gcti/snakeKebab",
+        "sizeToRem",
+        "lineHeightToDecimal",
+        "textCase"
+      ],
+      "prefix": "token",
+      "buildPath": "./styles/",
+      "files": [
+        {
+          "destination": "design-tokens.css",
+          "format": "css/variables",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "js": {
+      "transformGroup": "js",
+      "transforms": [
+        "attribute/gcti",
+        "name/cti/camel",
+        "sizeToRem",
+        "lineHeightToDecimal",
+        "textCase"
+      ],
+      "prefix": "token",
+      "buildPath": "./styles/",
+      "files": [
+        {
+          "destination": "design-tokens.js",
+          "format": "javascript/es6",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    }
+  }
+}
