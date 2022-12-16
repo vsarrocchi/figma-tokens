@@ -1,0 +1,14 @@
+{
+  "button-color-background": {
+    "value": "#0600ff",
+    "type": "color",
+    "rawValue": "#0600ff"
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "global",
+      "type": "other",
+      "rawValue": "global"
+    }
+  }
+}
