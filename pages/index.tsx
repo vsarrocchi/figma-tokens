@@ -16,6 +16,7 @@ export default function Home() {
         <div className={styles.center}>
           <button
             style={{ backgroundColor: tokenButtonColorBackground }}
+            // style={{ backgroundColor: "var(--token_button-color-background)" }}
             className={styles.button}
           >
             Button

@@ -45,6 +45,7 @@
 
 .button {
   background-color: #8614f8;
+  /* background-color: var(--token_button-color-background); */
   border-radius: 5px;
   border-style: none;
   box-shadow: rgba(245, 244, 247, 0.25) 0 1px 1px inset;
