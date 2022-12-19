@@ -334,4 +334,4 @@ jobs:
 
 ## Deploy in Vercel
 
-[I'm an inline-style link](https://vercel.com/vsarrocchi/figma-tokens)
+[https://vercel.com/vsarrocchi/figma-tokens](https://vercel.com/vsarrocchi/figma-tokens)
