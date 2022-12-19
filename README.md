@@ -253,6 +253,8 @@ npx chromatic --project-token= chromatic_project_token --force-rebuild
   <img width="400" alt="Screenshot 2022-06-20 at 16 53 42" src="https://user-images.githubusercontent.com/43675670/174629189-04d1f0f3-06eb-4d6d-9e5e-22ff7c2b632c.png">
 </div>
 
+<hr />
+
 - Change or create a token in Figma and push to your GitHub repo
 
 <div align="center">
@@ -262,6 +264,8 @@ npx chromatic --project-token= chromatic_project_token --force-rebuild
 <div align="center">
   <img width="400" alt="Screenshot 2022-06-20 at 17 01 57" src="https://user-images.githubusercontent.com/43675670/174630918-78a35fe9-7f55-4ec3-8858-a73924a23fde.png">
 </div>
+
+<hr />
 
 ## Automate the transformation of Figma tokens with GitHub Actions
 
