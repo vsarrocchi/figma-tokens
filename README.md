@@ -297,7 +297,7 @@ jobs:
 
 ```
 
-## Automate Chromatic with GitHub Actions
+<!-- ## Automate Chromatic with GitHub Actions
 
 - Create a new repository secret
 
@@ -330,4 +330,8 @@ jobs:
         uses: chromaui/action@v1
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-```
+``` -->
+
+## Deploy in Vercel
+
+[I'm an inline-style link](https://vercel.com/vsarrocchi/figma-tokens)
