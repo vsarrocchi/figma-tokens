@@ -1,8 +1,7 @@
 import Head from "next/head";
-import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import { tokenButtonColorBackground } from "../styles/design-tokens";
 
 export default function Home() {
   return (
@@ -15,7 +14,12 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.center}>
-          <button className={styles.button}>Button</button>
+          <button
+            style={{ backgroundColor: tokenButtonColorBackground }}
+            className={styles.button}
+          >
+            Button
+          </button>
         </div>
       </main>
     </>
