@@ -233,13 +233,14 @@ npx chromatic --project-token= chromatic_project_token --force-rebuild
 
 - Create GitHub token
 
-<div align="center" style="border: 1px solid grey">
+<!-- <div align="center">
   <img width="900" alt="Screenshot 2022-06-20 at 16 33 32" src="https://user-images.githubusercontent.com/43675670/174627098-40e22779-4d22-41fe-8dbd-c2934f9a6439.png">
-</div>
+</div> -->
 
 <div align="center">
   <img width="1213" alt="Screenshot 2022-12-16 at 15 14 55" src="https://user-images.githubusercontent.com/43675670/208118419-9f9f481a-40c7-40de-90d9-1caf3b751ce0.png">
 </div>
+
 
 - Add the new created GitHub token to Figma tokens plugin
 
