@@ -4,7 +4,7 @@
 npx create-next-app --typescript
 ```
 
-## Install Material UI:
+<!-- ## Install Material UI:
 
 ```
 npm install @mui/material @emotion/react @emotion/styled
@@ -16,14 +16,14 @@ npm install @mui/icons-material
 ```
 `npm install @date-io/date-fns` or `npm install date-fns @types/date-fns`
 npm install @mui/x-date-pickers
-```
+``` -->
 
-## Install and run Storybook:
+<!-- ## Install and run Storybook:
 
 ```
 npx sb init
 npm run storybook
-```
+``` -->
 
 ## Install Style Dictionary:
 
@@ -217,7 +217,7 @@ In the `sd.config.json` file paste the following code:
 
 ```
 
-## Install and run Chromatic:
+<!-- ## Install and run Chromatic:
 
 - Setup a new project in chromatic and copy the `chromatic_project_token`.
 
@@ -227,13 +227,13 @@ In the `sd.config.json` file paste the following code:
 npm install --save-dev chromatic
 npx chromatic --project-token= chromatic_project_token
 npx chromatic --project-token= chromatic_project_token --force-rebuild
-```
+``` -->
 
 ## Connect Figma tokens plugin with a GitHub repo:
 
 - Create GitHub token
 
-<div align="center">
+<div align="center" style="border: 1px solid grey">
   <img width="900" alt="Screenshot 2022-06-20 at 16 33 32" src="https://user-images.githubusercontent.com/43675670/174627098-40e22779-4d22-41fe-8dbd-c2934f9a6439.png">
 </div>
 
@@ -247,7 +247,7 @@ npx chromatic --project-token= chromatic_project_token --force-rebuild
   <img width="400" alt="Screenshot 2022-06-20 at 16 51 11" src="https://user-images.githubusercontent.com/43675670/174629173-474117de-7a4d-4d26-b13a-189b6894823b.png">
 </div>
 
-<div align="center">
+<div align="center" >
   <img width="400" alt="Screenshot 2022-06-20 at 16 53 42" src="https://user-images.githubusercontent.com/43675670/174629189-04d1f0f3-06eb-4d6d-9e5e-22ff7c2b632c.png">
 </div>
 
