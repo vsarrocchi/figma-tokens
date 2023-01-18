@@ -267,7 +267,7 @@ npx chromatic --project-token= chromatic_project_token --force-rebuild
 
 <hr />
 
-## Automate the transformation of Figma tokens with GitHub Actions
+## Automate the transformation of Figma tokens
 
 - Create a `.github/workflows` folder in the root of the project.
 
